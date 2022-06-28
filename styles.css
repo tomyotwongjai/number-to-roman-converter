@@ -1,5 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #143caa;
+}
+
+
 .container{
-    font-family: sans-serif;
-    font-size: 14px;
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 20px;
+    color: #999;
+    font-weight: bold;
     text-align: center;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+ .number, input {
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+#btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #143caa;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(196, 22, 22);
+    transition: 0.3s;
+    color: #fff;
+}
+
+.result {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-family: 'Luxurious Roman', cursive;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: #999;
 }
